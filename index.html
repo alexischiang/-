@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>别踩小白块</title>
+    <style type="text/css">
+        /* #score{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        div{
+            margin: :0 auto;
+            width: 100px;
+            height: 100px;
+        } */
+
+        #main{
+            width: 400px;
+            height: 400px;
+            background: white;
+            border: 2px solid gray;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #con{
+            width: 100px;
+            height: 400px;
+            position: relative;
+            top: -100px;
+            border-collapse: collapse;
+        }
+
+        .row{
+            height: 100px;
+            width: 100%;
+        }
+        .cell{
+            height: 100px;
+            width: 100px;
+            float: left;
+        }
+        .black{
+            background: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="con">
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell black"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell black"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell black"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell black"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js">
+   
+</script>
+</html>
